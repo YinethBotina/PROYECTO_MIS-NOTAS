@@ -1,0 +1,102 @@
+/* Estilos para toda la pagina*/
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Define la fuente de texto */
+    display: flex; /* Para centrar el contenido */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    background-color: #d6d6d6f3; /* Color de fondo */
+}
+
+/* Estilos para el contenedor principal */
+.container {
+    background-color: #d6d6d6f3; /* Color de fondo */
+    padding: 20px; /* Espaciado interno */
+    width: 280px; /* Ancho fijo */
+    
+}
+
+/* Estilo para el encabezado */
+h1 {
+    margin-bottom: 20px; /* Espaciado inferior */
+    font-size: 24px; /* Tamaño de la fuente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    text-align: center; /*Alineacion central del texto*/
+}
+
+/* Estilos para el área de texto */
+textarea {
+    font-family: Arial, sans-serif; /* Define la fuente de texto */
+    width: 91%; /* Ancho del texto*/
+    height: 80px; /* Altura del texto */
+    margin-bottom: 10px; /* Espaciado inferior */
+    padding: 10px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño de la fuente */
+    border: 2px solid #817d7d; /* Borde */
+    resize: none; /* No modificar tamaño */
+
+    
+}
+
+/* Estilos para el botón de crear nota */
+button {
+    width: 100%; /* Ancho completo para el texto */
+    height: 40px; /* Altura del texto */
+    padding: 10px 20px; /* Espaciado interno */
+    border-radius: 14px; /* Bordes redondeados */
+    background-color: #333; /* Color de fondo */
+    color: white; /* Color del texto */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 16px; /* Tamaño de la fuente */
+
+}
+
+/* Estilo para el botón al pasar el cursor */
+button:hover {
+    background-color: #555; /* Color de fondo al pasar el cursor */
+}
+
+/* Estilo para la lista de notas */
+ul {
+    list-style-type: none; /* Sin estilo de lista */
+    padding: 0px; /* Sin espaciado interno */
+    width: 100%; /* Ancho completo */
+}
+
+/* Estilos para cada elemento de la lista de notas */
+li {
+    background-color: #f5f5f5; /* Color de fondo */
+    margin-bottom: 10px; /* Espaciado inferior */
+    padding: 10px; /* Espaciado interno */
+    border: 2px solid #817d7d; /* Borde */
+    border-radius: 8px; /* Bordes redondeados */
+    justify-content: space-between; /* Espaciado entre el contenido */
+    align-items: center; /* Alineación del contenido */
+    
+    font-size: 16px; /* Tamaño de la fuente */
+    max-width: 100%; /* Asegura que la nota no exceda el ancho del contenedor */        
+    word-wrap: break-word; /* Permite que las palabras largas se dividan en varias líneas */ 
+    overflow-wrap: break-word; /* Permite que las palabras largas se dividan en varias líneas */
+    box-sizing: border-box; /* Asegura que el padding y border estén incluidos en el ancho y alto del elemento */
+}
+
+/* Estilos para el botón de borrar nota */
+li button {
+    display: flex; /* Ubica el boton despues del texto*/
+    margin-left: auto; /* Ubica el boton al lado derechp*/
+    width: 22%; /* Ancho completo */
+    height: 22px; /* Altura del área de texto */
+    background-color: #ccc; /* Color de fondo */
+    padding: 0px 10px; /* Espaciado interno */
+    color: #4d4949; /* Color del texto */
+    border-radius: 13px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    font-size: 14px; /* Tamaño de la fuente */
+}
+
+/* Estilo para el botón de borrar al pasar el cursor */
+li button:hover {
+    background-color: #aaa; /* Color de fondo al pasar el cursor */
+}
+
